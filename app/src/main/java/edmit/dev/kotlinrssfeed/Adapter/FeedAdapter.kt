@@ -7,4 +7,11 @@ import android.view.View
  * Created by sungwoopark on 9/12/17.
  */
 
-class feedViewHolder(itemView: View): RecyclerView.ViewHolder()
+class FeedViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.OnClickListener, View.OnLongClickListener
+{
+    override fun onClick(p0: View?) {
+    }
+
+    override fun onLongClick(p0: View?): Boolean {
+    }
+}
