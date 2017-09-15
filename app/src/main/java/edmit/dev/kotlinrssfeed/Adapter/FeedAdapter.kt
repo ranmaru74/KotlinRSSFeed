@@ -9,7 +9,7 @@ class FeedViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.On
     override fun onClick(p0: View?) {
     }
 
-    // test1 comment
+    // test1 comment 1
     override fun onLongClick(p0: View?): Boolean {
     }
 }
